@@ -1,0 +1,24 @@
+# Build artifacts (regenerables con build.py / Inno Setup)
+dist/
+build/
+installers/output/
+
+# Herramientas de terceros vendorizadas (ffmpeg, exiftool) -- pesan
+# demasiado para git, se distribuyen aparte.
+Tools/
+
+# Repo independiente ya publicado por su cuenta (ingestpro-webhook)
+vercel-webhook/
+
+# Python
+__pycache__/
+*.pyc
+
+# Vercel / secretos
+.vercel
+*.pem
+.env
+.env.*
+
+# Configuracion local de Claude Code
+.claude/
